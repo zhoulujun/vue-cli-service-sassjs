@@ -1,12 +1,11 @@
 {
   "name": "vue-cli-service-sassjs",
-  "version": "1.0.0",
-  "description": "vue sass 依赖node-sass ，但是这个包不好安装 ，所以只好修改 不依赖node-sass与sass-loader（替换为sass与sassjs-loader 但是需要安装 npm i sass sassjs-loader https://www.npmjs.com/package/sassjs-loader",
+  "version": "2.0.0",
+  "description": "vue sass 依赖node-sass ，但是这个包不好安装 ，所以只好修改 不依赖node-sass与sass-loader（替换为sass.js与sassjs-loader 但是需要安装 npm i sass.js sassjs-loader",
   "main": "webpack.config.js",
   "bin": {
     "vue-cli-service": "bin/vue-cli-service.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhoulujun/vue-cli-service-sassjs.git"
@@ -60,6 +59,8 @@
     "portfinder": "^1.0.20",
     "postcss-loader": "^3.0.0",
     "read-pkg": "^5.0.0",
+    "sass.js": "^0.11.0",
+    "sassjs-loader": "^7.1.0",
     "semver": "^6.0.0",
     "slash": "^2.0.0",
     "source-map-url": "^0.4.0",
@@ -79,8 +80,6 @@
   "deprecated": false,
   "devDependencies": {
     "fibers": "^3.1.1",
-    "sass": "^1.18.0",
-    "sassjs-loader": "^7.1.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vue-template-compiler": "^2.6.10",

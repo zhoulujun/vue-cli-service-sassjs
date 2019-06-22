@@ -37,12 +37,12 @@ module.exports = (api, options) => {
     const deps = {
       // TODO: remove 'sass' option in v4 or rename 'dart-sass' to 'sass'
       sass: {
-        'node-sass': '^4.9.0',
-        'sassjs-loader': '^7.1.0'
+        "sass.js": "^0.11.0",
+        "sassjs-loader": "^7.1.0"
       },
       'node-sass': {
-        'sass': '^4.9.0',
-        'sassjs-loader': '^7.1.0'
+        "sass.js": "^0.11.0",
+        "sassjs-loader": "^7.1.0",
       },
       'dart-sass': {
         sass: '^1.18.0',
